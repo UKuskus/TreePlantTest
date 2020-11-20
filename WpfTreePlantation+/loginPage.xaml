@@ -10,9 +10,9 @@
 
     <Grid>
         <Label Content="Enter login" HorizontalAlignment="Center" Height="29" Margin="289,144,312,0" VerticalAlignment="Top" Width="199"/>
-        <TextBox x:Name="LOG" HorizontalAlignment="Center" Height="23" Margin="274,183,328,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198"/>
-        <Label Content="Enter password" HorizontalAlignment="Center" Margin="216,0,465,422" Width="119" RenderTransformOrigin="-1.328,-3.375" />
-        <PasswordBox x:Name="PASSWORD" HorizontalAlignment="Center" Margin="274,231,328,0" VerticalAlignment="Top" Width="198" Height="23"/>
+        <TextBox x:Name="LOG" HorizontalAlignment="Center" Height="23" Margin="289,183,328,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183"/>
+        <Label Content="Enter password" HorizontalAlignment="Center" Margin="289,206,392,216" Width="119" RenderTransformOrigin="-1.328,-3.375" />
+        <PasswordBox x:Name="PASSWORD" HorizontalAlignment="Center" Margin="289,231,328,0" VerticalAlignment="Top" Width="183" Height="23"/>
         <Button x:Name="register" Click="register_Click" Content="Sigh up" HorizontalAlignment="Left" Margin="289,272,0,0" VerticalAlignment="Top" Width="94"/>
         <Button x:Name="enter" Click="enter_Click" Content="Sigh in" HorizontalAlignment="Left" Margin="394,272,0,0" VerticalAlignment="Top" Width="94"/>
     </Grid>

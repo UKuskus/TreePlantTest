@@ -40,13 +40,6 @@ namespace WpfTreePlantation_
         private void enter_Click(object sender, RoutedEventArgs e)
         {
 
-            //using (AccountContext context = new AccountContext())
-            //{
-            //    Account User;
-            //    User = new Account("", "");
-            //    context.Accounts.Add(User);
-            //    context.SaveChanges();
-            //}
             if (LOG.Text.Length > 0)
             {
                 if (PASSWORD.Password.Length > 0) 
